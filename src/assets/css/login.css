@@ -255,7 +255,7 @@ padding: 5px;
     appearance: none;
     /* width: 278px; */
     /* border-color: #444 #333 #333 #444!important; */
-    background: url(../img/down-arrow.png) no-repeat 344px 22px;
+    background: url(../img/down-arrow.png) no-repeat 100% 22px;
 }
 /* .login-wrapper  select.form-control:hover, .login-wrapper  select.form-control:focus{
   -webkit-appearance: none;
