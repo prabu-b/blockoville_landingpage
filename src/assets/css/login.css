@@ -178,13 +178,22 @@ font-family: ProximaNova-Semibold;
 }
 
 /*# sourceMappingURL=login.css.map */
+
+.social{
+  display: flex;
+}
 .social > span{
+  float: left;
 font-size: 14px;
 color: #A1A5C5;
-padding: 5px;
+padding: 10px;
+margin-top: 10px;
 }
-
+.social input {
+  float: left;
+}
 .social a {
+  float: left;
   display: inline-block;
   width: 46px;
   height: 46px;
