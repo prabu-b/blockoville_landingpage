@@ -78,7 +78,7 @@ h6,
 }
 
 .text-primary {
-  color: #000A4B !important;
+  color: #000a4b !important;
 }
 
 .border-top {
@@ -122,7 +122,7 @@ figure figcaption {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #000A4B;
+  background: #000a4b;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -159,7 +159,7 @@ figure figcaption {
 
 .btn.btn-outline-white:hover {
   background: #fff;
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .btn.btn-primary {
@@ -169,7 +169,6 @@ figure figcaption {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
   border-radius: 50px;
 }
-
 
 .btn.btn-primary:hover {
   border: 1px solid #5832e0;
@@ -195,7 +194,6 @@ figure figcaption {
 
 .feature-1 .wrap-icon:hover {
   transform: scale(1.1);
- 
 }
 
 .feature-1 .wrap-icon img {
@@ -218,7 +216,6 @@ figure figcaption {
 .feature-1 h3 {
   font-size: 1.6rem;
   color: #000a4b;
-
 }
 
 .feature-1 p {
@@ -229,13 +226,13 @@ figure figcaption {
 
 .social_features .media {
   padding: 20px;
-  border-radius: 10px 0 0 10px; 
+  border-radius: 10px 0 0 10px;
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
 .social_features .media:hover {
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
 }
 
 .social_features .media-left {
@@ -260,43 +257,41 @@ figure figcaption {
   font-size: 1.125rem;
 }
 
-.crypto_features .col-md-3 h1{
+.crypto_features .col-md-3 h1 {
   font-family: ProximaNova-Regular;
   color: #000a4b;
   font-size: 1.625rem;
 }
 
-.crypto_features .col-md-3 p{
+.crypto_features .col-md-3 p {
   font-family: ProximaNova-Regular;
   color: #a1a5c5;
   font-size: 1.125rem;
 }
 
-
-.our_partners .col-md-3 img{
-opacity: 0.7;
-cursor: pointer;
-transition-duration: 0.3s;
+.our_partners .col-md-3 img {
+  opacity: 0.7;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  width: 240px;
+  margin-bottom: 30px;
 }
 
-.our_partners .col-md-3 img:hover{
+.our_partners .col-md-3 img:hover {
   opacity: 1;
-  }
+}
 
-
-.our_partners .col-md-3 h1{
+.our_partners .col-md-3 h1 {
   font-family: ProximaNova-Regular;
   color: #000a4b;
   font-size: 1.625rem;
 }
 
-.our_partners .col-md-3 p{
+.our_partners .col-md-3 p {
   font-family: ProximaNova-Regular;
   color: #a1a5c5;
   font-size: 1.125rem;
 }
-
-
 
 /* Step */
 
@@ -390,7 +385,7 @@ transition-duration: 0.3s;
 }
 
 .pricing h3 {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .pricing .price-cta {
@@ -432,7 +427,7 @@ transition-duration: 0.3s;
 }
 
 .pricing .btn-white:hover {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .pricing.popular {
@@ -454,7 +449,7 @@ transition-duration: 0.3s;
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #000A4B;
+  border: 2px solid #000a4b;
 }
 
 /* CTA Section */
@@ -527,11 +522,11 @@ transition-duration: 0.3s;
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #000A4B !important;
+  color: #000a4b !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
-  color: #000A4B !important;
+  color: #000a4b !important;
 }
 
 .sticky-wrapper .shrink {
@@ -551,7 +546,7 @@ transition-duration: 0.3s;
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #000A4B;
+  border: 1px solid #000a4b;
 }
 
 .php-email-form .validate {
@@ -648,11 +643,11 @@ transition-duration: 0.3s;
 
 .post-entry .post-text h3 a:hover {
   text-decoration: none;
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .post-entry .post-text .readmore {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .sidebar-box {
@@ -995,7 +990,7 @@ transition-duration: 0.3s;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-  color: #000A4B !important;
+  color: #000a4b !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -1035,7 +1030,7 @@ transition-duration: 0.3s;
 .site-navbar .site-navigation .site-menu .has-children:hover > a,
 .site-navbar .site-navigation .site-menu .has-children:focus > a,
 .site-navbar .site-navigation .site-menu .has-children:active > a {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -1080,17 +1075,22 @@ transition-duration: 0.3s;
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
-  float: right;
-  margin-top: 8px;
+  /* float: right; */
+  /* margin-top: 8px; */
+  width: 70%;
+  /* background: green;*/
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
   font-size: 30px;
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 0px;
+  /* padding-left: 10px; */
+  /* padding-right: 0px; */
   line-height: 1;
+  color: #000a4b;
   cursor: pointer;
+  float: right;
+  margin-bottom: 40px;
   transition: 0.3s all ease;
 }
 
@@ -1136,7 +1136,7 @@ transition-duration: 0.3s;
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -1145,7 +1145,7 @@ transition-duration: 0.3s;
 }
 
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #000A4B;
+  color: #000a4b;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -1313,15 +1313,13 @@ transition-duration: 0.3s;
 
 .footer {
   padding: 5rem 0 2.5rem 0;
-  background-color: #000A4B;
-
-  
+  background-color: #000a4b;
 }
 
-.footer .container{
+.footer .container {
   background-image: url(../img/map.png);
   background-repeat: no-repeat;
-    background-position: right;
+  background-position: right;
 }
 
 .footer h3 {
@@ -1331,8 +1329,7 @@ transition-duration: 0.3s;
   font-family: ProximaNova-Bold;
 }
 
-.footer p{
- 
+.footer p {
   color: #fff;
   margin-bottom: 5px;
 }
@@ -1365,7 +1362,7 @@ transition-duration: 0.3s;
   transition: 0.3s background ease;
   color: #fff;
   border: 1px solid #fff;
-    margin: 3px;
+  margin: 3px;
 }
 
 .social a span {
@@ -1379,12 +1376,12 @@ transition-duration: 0.3s;
 }
 
 .social a:hover {
-  color: #000A4B;
+  color: #000a4b;
   background: #fff;
 }
 
 @media screen and (max-width: 992px) {
-  .site-mobile-menu .site-nav-wrap > li.vl{
+  .site-mobile-menu .site-nav-wrap > li.vl {
     display: none;
   }
   .hero-section .wave {
@@ -1426,7 +1423,7 @@ transition-duration: 0.3s;
 }
 
 @media screen and (max-width: 768px) {
-  .site-mobile-menu .site-nav-wrap > li.vl{
+  .site-mobile-menu .site-nav-wrap > li.vl {
     display: none;
   }
   .cta-section h2 {

@@ -19,6 +19,21 @@
     return false;
   });
 
+  function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#why_choose_us").click(function() {
+	scrollToAnchor('why_choose_us');
+ });
+ $("#social_features").click(function() {
+	scrollToAnchor('social_features');
+ });
+ $("#crypto_features").click(function() {
+	scrollToAnchor('crypto_features');
+ });
+
   var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {

@@ -40,30 +40,13 @@ body {
   padding: 68px 60px;
   background-color: #fff;
 }
-@media (max-width: 991px) {
-  .login-section-wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-@media (max-width: 575px) {
-  .login-section-wrapper {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    min-height: 100vh;
-  }
-}
+
 
 .login-wrapper {
   width: 300px;
   max-width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-@media (max-width: 575px) {
-  .login-wrapper {
-    width: 100%;
-  }
 }
 .login-wrapper label {
   font-size: 16px;
@@ -86,9 +69,7 @@ body {
   font-family: ProximaNova-Semibold;
 }
 
-.login-wrapper input {
-}
-
+ 
 .login-wrapper .form-control {
   border: none;
   border-bottom: 1px solid #e7e7e7;
@@ -143,11 +124,7 @@ body {
   display: inline-block;
   margin-bottom: 24px;
 }
-@media (max-width: 575px) {
-  .login-wrapper a.forgot-password-link {
-    margin-bottom: 16px;
-  }
-}
+
 .login-wrapper-footer-text {
   font-size: 14px;
   color: #646464;
@@ -177,29 +154,37 @@ font-family: ProximaNova-Semibold;
   object-position: left;
 }
 
+
+ .form-group .iti--allow-dropdown{
+   width: 100%;
+ }
+
 /*# sourceMappingURL=login.css.map */
 
 .social{
+ 
   display: flex;
+  /* display: inline-grid; */
+  text-align: center;
 }
-.social > span{
-  float: left;
+.social span.ortext{
+  /* float: left; */
 font-size: 14px;
 color: #A1A5C5;
 padding: 10px;
 margin-top: 10px;
 }
-.social input {
-  float: left;
+.social span input {
+ /*  float: left; */
 }
-.social a {
-  float: left;
+.social span a {
+   
   display: inline-block;
   width: 46px;
   height: 46px;
   border-radius: 50%;
   /* background: #f8f9fa; */
-  position: relative;
+ /*  position: relative; */
   text-align: center;
   transition: 0.3s background ease;
   color: #000;
@@ -208,13 +193,13 @@ margin-top: 10px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
 
-.social a span {
+.social span a span {
   display: inline-block;
-  left: 50%;
+ /*  left: 50%;
   position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 50%; */
+  -webkit-transform: translate(0%, 51%);
+  transform: translate(0%, 51%);
   font-size: 1.5rem;
 }
 
@@ -234,30 +219,11 @@ margin-top: 10px;
 .social .instagram img{
   width: 60%;
 }
-
-/* .social a:hover {
-  color: #000A4B;
-  background: #fff;
-} */
+ 
 
 
 .login-wrapper  select.form-control{
-/*   -webkit-appearance: button;
-    -webkit-border-radius: 2px;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-    -webkit-padding-end: 20px;
-    -webkit-padding-start: 2px;
-    -webkit-user-select: none;
-    background-position: center right;
-    background-repeat: no-repeat;
-
-    margin: 0;
-    overflow: hidden;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    box-shadow: none; */
+ 
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -266,7 +232,41 @@ margin-top: 10px;
     /* border-color: #444 #333 #333 #444!important; */
     background: url(../img/down-arrow.png) no-repeat 100% 22px;
 }
-/* .login-wrapper  select.form-control:hover, .login-wrapper  select.form-control:focus{
-  -webkit-appearance: none;
+ 
 
-} */
+
+@media (max-width: 991px) {
+  .login-section-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .login-section-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+  }
+ 
+  .login-wrapper {
+    width: 100%;
+  }
+ 
+  .login-wrapper a.forgot-password-link {
+    margin-bottom: 16px;
+  }
+
+  .social {
+   display: inline-block; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social span input {
+  width: 100%;
+}
+
+ 
+
+}
+
